@@ -1,0 +1,39 @@
+Metadata-Version: 1.1
+Name: ies-msgclient
+Version: 0.1
+Summary: MsgClient for IES.
+Home-page: http://instantesports.com/
+Author: Jonathan Lin
+Author-email: jon@instantesports.com
+License: MIT License
+Description: IES Django Base
+        =============
+        
+        IES Django base is a set of helper functions that can be implemented in a
+        project to add certain functionality to your app.
+        
+        Quick start
+        -----------
+        
+        1. Install ies-base from pip with this line
+            ```
+            pip install -e git+https://github.com/InstanteSports/ies-django-base.git#egg=ies_django_base-master
+            ```
+        2. Add "ies-base" to your INSTALLED_APPS setting like this
+        
+            INSTALLED_APPS = (
+                ...
+                'ies_base',
+            )
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
